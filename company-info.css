@@ -1,0 +1,256 @@
+
+/* FIRST SECTION */
+.first {
+  background-color: #f5f7fa; /* Very light gray-blue, clean and soft */
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08); /* softer shadow */
+  margin-bottom: 40px;
+}
+
+.first h2 {
+  color: #0073a8; /* Deep sky blue */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.first img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.first p {
+  font-size: 1.1rem;
+  color: #1a2935; /* Dark slate blue-gray */
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-style: normal;
+}
+
+/* HEADINGS */
+h2 {
+  color: #005f8a; /* Classic Mercedes blue */
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+/* TABLE STYLES */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 20px;
+  border: 1px solid #cbd5e0; /* Soft border */
+  text-align: left;
+  background-color: #e9f0f6; /* Light steel blue background */
+}
+
+th {
+  background-color: #004060; /* Darker blue */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+tr:nth-child(even) td {
+  background-color: #f7fafc; /* Very light blue/white */
+}
+
+/* LISTS */
+ul, ol {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding-left: 20px;
+  color: #1e3a5f; /* Dark blue */
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+/* FORM STYLES */
+.sixth {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #e0f0fc; /* Very soft sky blue */
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  color: #004060; /* Dark blue */
+}
+
+.sixth h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.sixth label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.sixth input[type="text"] {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #0073a8;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.sixth input[type="text"]:focus {
+  border-color: #004060;
+  outline: none;
+}
+
+.sixth button {
+  width: 100%;
+  padding: 14px;
+  background-color: #0073a8;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sixth button:hover {
+  background-color: #004060;
+}
+/* Modern Footer */
+footer {
+  background-color: #002a45; /* very dark blue */
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #a1b2c3; /* soft gray-blue text */
+  font-size: 0.9rem;
+  border-top: 3px solid #0073a8; /* bright blue accent line */
+}
+
+footer .icons {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+footer .icons img {
+  width: 48px;
+  height: 48px;
+  filter: brightness(85%);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+footer .icons img:hover,
+footer .icons img:focus {
+  filter: brightness(120%);
+  transform: scale(1.1);
+  outline: none;
+  box-shadow: 0 4px 16px rgba(0, 115, 168, 0.7);
+}
+
+/* Optional: add a small copyright or tagline */
+footer p {
+  margin: 0;
+  padding-left: 15px;
+  color: #7d8ca3;
+  font-style: italic;
+  user-select: none;
+}
+
+
+/* BUTTON AT BOTTOM CENTER */
+.bottom-button {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  text-align: center;
+}
+
+.button {
+  padding: 12px 30px;
+  background-color: transparent;
+  color: #004060;
+  border: 2px solid #004060;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background-color: #004060;
+  color: white;
+  cursor: pointer;
+}
+/* Elegant Header */
+header {
+  background-color: #004060; /* deep navy blue */
+  padding: 20px 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+  color: #f0f4f8; /* very light gray */
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #cfe3f2; /* soft light blue */
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: #0073a8; /* bright blue */
+  color: white;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 115, 168, 0.6);
+}
+
+
